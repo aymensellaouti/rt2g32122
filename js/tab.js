@@ -10,3 +10,18 @@ function compareInteger(a,b) {
     return a-b;
 }
 console.log(array.sort(compareInteger));
+console.log(array.reduce(
+    (som, actualInt) => som + actualInt
+))
+
+const o = {
+    m(x) {
+        console.log(x);
+    }
+}
+o['m'](2);
+
+(function(w) {
+    console.log(w);})(5);
+(x =  (a, b) => a+b )(3,4);
+x(5,6);
