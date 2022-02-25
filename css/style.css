@@ -1,3 +1,8 @@
 p {
     background-color: blue;
 }
+
+.allume {
+    background-color: yellow;
+    border: 2px solid black;
+}
